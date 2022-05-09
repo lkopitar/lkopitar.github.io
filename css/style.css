@@ -15,7 +15,8 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #f8333c;
+    --clr-accent: #F98066;
+    /*#f8333c*/
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -44,7 +45,8 @@
 
 
 body {
-    background: var(--clr-light);
+    /* background: var(--clr-light); */
+    background-color: linen;
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -124,7 +126,7 @@ h3 { font-size: var(--fs-h3) }
     background: var(--clr-accent);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
-    margin-bottom: 1em;
+    margin-bottom: 1em;  
 }
 
 .section__subtitle--work {
@@ -343,8 +345,9 @@ header {
     max-width: auto;
     margin: 0 auto;
     color: var(--clr-light);
-    /* background-color: var(--clr-dark); */
-    background-image: url(../img/services-bg.jpg);
+    background-color: var(--clr-dark);
+    background-image: url(../img/pngwing.com.png);
+    /*background-image: url(../img/services-bg.jpg);*/
 }
 
 .about-me__img {
@@ -389,7 +392,8 @@ header {
 /* My Work */
 
 .my-work {
-    background-color: var(--clr-dark);
+    background-color: lightgrey;
+    background-image: url(../img/pngwing.com.png);
     color: var(--clr-light);
     text-align: center;    
 }
@@ -426,12 +430,11 @@ header {
 /* footer */
 
 .footer {
-    background: #111;
-    color: var(--clr-accent);
+    background: lightgrey;
+    color: var(--clr-dark);
     text-align: center;
-    padding: 2.5em 0;
-    font-size: var(--fs-h3);
-
+    padding: 0.1em 0;
+    font-size: var(--fs-h4);
 }
 
 .footer a { 
