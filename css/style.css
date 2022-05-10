@@ -15,8 +15,10 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #F98066;
+    --clr-accent: #e96223;
     /*#f8333c*/
+    --clr-about_work: #f3daf3;
+    --clr-about_work_background: url(../img/pngwing.com.png);
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -141,10 +143,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-}
-
-.logo {
-    max-width: 100px;
 }
 
 .nav {
@@ -297,8 +295,6 @@ header {
 
 .my-interests {
     background-color: linen;
-    /* background-size: cover;
-    background-blend-mode: multiply; */
     color: var(--clr-dark);
     text-align: center;
 }
@@ -345,8 +341,8 @@ header {
     max-width: auto;
     margin: 0 auto;
     color: var(--clr-light);
-    background-color: var(--clr-dark);
-    background-image: url(../img/pngwing.com.png);
+    background-color: var(--clr-about_work);
+    background-image: var(--clr-about_work_background);
     /*background-image: url(../img/services-bg.jpg);*/
 }
 
@@ -392,8 +388,8 @@ header {
 /* My Work */
 
 .my-work {
-    background-color: lightgrey;
-    background-image: url(../img/pngwing.com.png);
+    background-color: var(--clr-about_work);
+    background-image: var(--clr-about_work_background);
     color: var(--clr-light);
     text-align: center;    
 }
