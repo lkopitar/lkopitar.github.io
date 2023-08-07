@@ -135,6 +135,7 @@ h3 { font-size: var(--fs-h3) }
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
+    opacity: 0;
 }
 
 /* header */
