@@ -212,11 +212,6 @@ header {
     opacity: 0;
 }
 
-
-
-
-
-
 .hamburger {
     display: block;
     position: relative;
@@ -401,7 +396,7 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--#00e96223); /**/ #00e96223     clr-accent
     overflow: hidden;
     border: 5px solid #555;
 }
