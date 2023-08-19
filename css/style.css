@@ -384,7 +384,7 @@ header {
 
 .my-work {
     background-color: var(--clr-about_work);
-    background-image: var(--clr-about_work_background);
+    /*background-image: var(--clr-about_work_background);*/
     color: var(--clr-light);
     text-align: center;    
 }
