@@ -398,7 +398,7 @@ header {
 .portfolio__item {
     background: var(--#00e96223); /* #00e96223  --#00e96223   clr-accent*/ 
     overflow: hidden;
-    border: 5px solid #555;
+    border: 5px solid transparent ; /*#555*/
 }
 
 .portfolio__img {
